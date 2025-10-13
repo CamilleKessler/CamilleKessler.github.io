@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
 <!--
-	Camille Kessler
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Stellar by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 
@@ -11,6 +11,10 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
 </head>
 
 <body class="is-preload">
@@ -19,210 +23,283 @@
 	<div id="wrapper">
 
 		<!-- Header -->
-		<header id="header">
-			<h1><a href="index.html">Camille Kessler</a></h1>
-			<nav class="links">
-				<ul>
-					<li><a href="phd.html">PhD project</a></li>
-					<li><a href="master.html">Master's thesis</a></li>
-					<li><a href="other.html">Other</a></li>
-					<li><a href="blog.html">What's up?</a></li>
-				</ul>
-			</nav>
-			<nav class="main">
-				<ul>
-					<li class="search">
-						<a class="fa-search" href="#search">Search</a>
-						<form id="search" method="get" action="#">
-							<input type="text" name="query" placeholder="Search" />
-						</form>
-					</li>
-					<li class="menu">
-						<a class="fa-bars" href="#menu">Menu</a>
-					</li>
-				</ul>
-			</nav>
+		<header id="header" class="alt">
+			<span class="logo"><img src="images/logo.svg" alt="" /></span>
+			<h1>Dr. Camille Kessler</h1>
+			<p>Evolutionary genomist (?), bioinformatician, and a bit of everything else<br />
 		</header>
 
-		<!-- Menu -->
-		<section id="menu">
-
-			<!-- Search -->
-			<section>
-				<form class="search" method="get" action="#">
-					<input type="text" name="query" placeholder="Search" />
-				</form>
-			</section>
-
-			<!-- Links -->
-			<section>
-				<ul class="links">
-					<li>
-						<a href="phd.html">
-							<h3>PhD project</h3>
-							<p>North american deer speciation genomics</p>
-						</a>
-					</li>
-					<li>
-						<a href="master.html">
-							<h3>Master's thesis</h3>
-							<p>Alpine ibex sequencing assay and immunogenetics</p>
-						</a>
-					</li>
-					<li>
-						<a href="other.html">
-							<h3>Other</h3>
-						</a>
-					</li>
-					<li>
-						<a href="blog.html">
-							<h3>What's up?</h3>
-						</a>
-					</li>
-
-				</ul>
-			</section>
-		</section>
+		<!-- Nav -->
+		<nav id="nav">
+			<ul>
+				<li><a href="#about" class="active">About me</a></li>
+				<li><a href="#research">Research projects</a></li>
+				<li><a href="#pubs">Publications</a></li>
+				<li><a href="#misc">Other stuff</a></li>
+			</ul>
+		</nav>
 
 		<!-- Main -->
 		<div id="main">
-			<!-- Post -->
-			<article class="post">
-				<header>
-					<div class="title">
-						<h2><a>Hi I'm Camille</a></h2>
-						<p>Nice to meet you</p>
+
+			<!-- Introduction -->
+			<section id="about" class="main">
+				<div class="spotlight">
+					<div class="content">
+						<header class="major">
+							<h2>About me</h2>
+							<span class="image.right"><img src="images/me.jpg"
+									style="float: right; width: 40%; height: 40%;" alt="" /></span>
+						</header>
+
+						<p>Hi, welcome to my attempt at a website! I'm Dr. Camille Kessler, currently a postdoc at LMU
+							and the beneficiary of a
+							Swiss National Science Foundation Postdoc Mobility Fellowship. My scientific interests lie
+							in recreating the
+							evolutionary history of a species using DNA analysis. Through this broad goal, I get to
+							touch on many different
+							aspects involved in speciation and evolution, such as demography, selection, hybridisation,
+							ancient DNA and so on...
+							I seem to have gone with the flow for most of my academic journey, I’ve been unsure of the
+							next step throughout, but it all unexpectedly worked out quite well. </p>
+						<p>I’m having most of my fun while coding, the bioinformatics is my favourite part of my work. I
+							realised that
+							bioinformatics was awesome during my master’s under the supervision of Prof. Daniel Croll,
+							from the Laboratory of
+							Evolutionary Genetics at the Université de Neuchâtel, Switzerland. There, and with the
+							co-supervision from Christine
+							Grossen (then at the University of Zürich), I worked on alpine ibex population genetics
+							monitoring (more <a href="master.html">here</a> ).
+							After that, I joined the Swiss Institute of Bioinformatics in Lausanne to work as data
+							analyst trainee. While this
+							internship was a very good opportunity to develop my bioinformatics skills, it was also
+							helpful in telling me what I
+							did not want to do with my life: biomedical research on human RNA data.
+							I’d always been unsure about doing a PhD, but I decided to go for it and ended up in working
+							with Aaron Shafer in Canada, where I studied the
+							speciation genomics of two North American deer species: white-tailed deer and mule deer
+							(more <a href="phd.html">here</a>).
+							I am currently at LMU (Munich) working on sea lions speciation genomics on a Swiss National
+							Science Foundation Postdoc Mobility Fellowship.</p>
 					</div>
-					<div class="meta">
-						<time class="published" datetime="2023-10-03">9 October 2023</time>
-					</div>
+				</div>
+			</section>
+
+			<!-- First Section -->
+			<section id="research" class="main special">
+				<header class="major">
+					<h2>Research projects</h2>
 				</header>
-		
-				<a class="image"></a><img src="images/me dixence.jpeg"
-					style="float: right; width: 40%; height: 40%; padding: 1%;" alt="Picture of me on a hike in the Swiss mountains. I am in the middle, smiling with sunglasses,  
-										dark blue hat, warm dark blue jacket and hiking gear. Directly behind me is a fence and in the 
-										background there is a mountain covered in snow. The weather is nice, the sky is blue with a few
-										white clouds." /></a>
-				<p>Hi, nice to see someone interested in my work! As the title of the website, the website address and the
-					title of this post suggest, I'm Camille Kessler. What these didn't tell you though, is that I am from
-					Switzerland, that I am addicted to (good) chocolate, or that I love dinosaurs and am therefore constantly
-					jealous of boys' clothing options (what kind of <I>adult woman</I> would want to wear a brontosaurus
-					rainjacket
-					or a triceratops Christmas sweater?). Doing a PhD was never actually something I'd thought of before my
-					master's, I seem to have gone with the
-					flow for most of my journey, which unexpectedly actually worked out quite well, I also had the chance to
-					stumble upon the right people at the right time and always had great supervisors. </p>
-		
-				<p>Being usure of what to do after my bachelor's in Biology, I took a gap year where I worked and volunteered
-					during Cape Verde's turtle nesting season. I wanted to do a master's but found no
-					interesting options in Switzerland and going abroad would be too expensive. When time had come to apply,
-					though,
-					a new Prof. had arrived at the Université de Neuchâtel, where I had done my bachelor's. It was
-					Daniel Croll, who created the Laboratory of Evolutionary Genetics. Now that sounded very interesting!
-					I joined the hybrid Biology program (one year of courses and one year of thesis),
-					and worked with Daniel Croll and Christine Grossen on alpine ibex population genetics.
-					This is when I realised that genomics and bioinformatics were awesome and that that's what I wanted to do
-					with my life. As a result of this newfound interest, my grades increased dramatically and I graduated
-					from my master's with a <I>magna cum laude</I> distinction.
-					After my master's, again, I was usure of what to do. I had found no PhD project of interest so I joined
-					the Swiss Institute of Bioinformatics in Lausanne to work as data analyst trainee. While this intership was
-					a very good opportunity to develop my bioinformatics skills, it was also helpful in telling me what I did
-					not want to do with my life: biomedical reseach on human RNA data. </p>
-		
-				<p>Currently, I am a PhD candidate in the Environmental and Life Sciences graduate program at Trent University
-					in Ontario, Canada, where I am studying the speciation genomics of two North American deer species:
-					white-tailed deer (<i>Odocoileus virginianus</i>) and mule deer (<i>O. hemionus</i>). You can read
-					more about my PhD project <a href="phd.html">here</a>, about my master's project <a
-						href="master.html">here</a>
-					and about everything else <a href="other.html">here</a>.</p>
-			</article>
-		
-			<!-- Post -->
-			<article class="post">
-				<header>
-					<div class="title">
-						<h2><a>Publications list</a></h2>
-						<p>Preprints and published articles</p>
-					</div>
-					<div class="meta">
-						<time class="published" datetime="2023-10-03">27 March 2024</time>
-					</div>
-		
-				</header>
-		
-				<p>Here's the list of all published articles or preprints I have been involved with:</p>
-		
-				<ul>
-					<li>Cars, B. S., <b>Kessler, C.</b>, Hoffman, E. A., Côté, S. D., Koelsch, D., & Shafer, A. B. A. (2024).
-						Island demographics and trait associations in white-tailed deer. <i>Heredity</i>, 1–10.
-						<a href="https://doi.org/10.1038/s41437-024-00685-2">https://doi.org/10.1038/s41437-024-00685-2</a>
+				<ul class="features">
+					<li>
+						<span class="icon major style1 animal">
+							<svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1523 1536">
+								<g transform="translate(150,1300) scale(0.075,-0.075)">
+									<path
+										d="M5065 15349 c-53 -16 -146 -28 -315 -39 -214 -15 -298 -32 -388 -76 l-74 -36 -77 12 c-92 15 -98 13 -222 -86 -108 -86 -157 -108 -218 -100 -151 22 -136 24 -194 -35 -28 -30 -80 -86 -114 -126 -80 -91 -145 -126 -239 -127 l-64 -1 -53 -80 c-61 -93 -96 -117 -172 -119 -47 0 -55 -3 -65 -26 -7 -14 -14 -52 -17 -85 -3 -33 -10 -67 -14 -77 -8 -15 -44 -29 -145 -57 -54 -14 -78 -43 -119 -140 -19 -46 -40 -90 -47 -98 -17 -21 -70 -43 -103 -43 -16 0 -28 -7 -31 -17 -3 -10 -22 -52 -41 -93 -48 -101 -167 -220 -269 -270 l-72 -35 -5 -52 c-8 -74 -34 -126 -116 -228 -88 -108 -105 -140 -121 -227 -12 -66 -23 -87 -104 -202 -36 -51 -42 -72 -69 -243 -8 -51 -27 -117 -42 -150 -15 -32 -30 -82 -34 -111 l-6 -53 -67 -23 c-81 -28 -177 -95 -243 -168 -27 -29 -105 -129 -175 -223 -154 -206 -216 -267 -390 -380 -168 -109 -219 -152 -316 -268 -103 -123 -188 -254 -225 -352 -27 -68 -30 -88 -24 -135 18 -153 19 -141 -26 -246 -37 -86 -44 -111 -47 -185 l-4 -85 41 -13 c25 -7 71 -38 115 -76 41 -36 86 -69 101 -75 42 -16 255 -12 476 10 112 11 235 22 273 26 80 7 159 26 336 78 108 32 146 38 285 47 260 15 430 -3 535 -56 111 -56 160 -123 261 -357 188 -434 841 -1744 1309 -2628 95 -179 217 -419 272 -535 139 -294 217 -442 302 -570 126 -189 202 -260 496 -461 168 -115 244 -187 367 -351 213 -283 262 -388 437 -936 225 -702 286 -1098 341 -2207 30 -616 14 -852 -76 -1122 -65 -195 -122 -277 -260 -374 -43 -30 -95 -74 -116 -98 -42 -48 -197 -332 -189 -345 3 -5 25 -14 49 -20 69 -17 73 -29 32 -97 -19 -32 -35 -68 -35 -81 0 -23 1 -23 133 -23 145 0 230 16 376 69 105 38 163 72 227 132 59 56 91 116 106 197 10 55 9 66 -22 159 -29 90 -31 105 -20 137 16 50 49 86 130 145 l69 50 20 -34 c11 -19 27 -35 35 -35 8 0 30 26 49 57 27 47 40 60 69 67 l35 9 7 216 c19 592 65 1064 201 2046 24 176 58 426 75 555 17 129 33 236 34 238 4 3 160 -450 239 -693 142 -438 207 -798 207 -1142 0 -236 -23 -384 -84 -533 -60 -150 -134 -236 -311 -360 -63 -45 -140 -104 -171 -132 -55 -51 -114 -127 -114 -147 0 -6 17 -11 38 -11 20 0 44 -5 52 -10 12 -8 11 -13 -8 -39 -12 -17 -23 -41 -25 -53 -2 -23 -1 -23 163 -31 238 -11 382 -4 452 22 100 38 248 218 248 302 0 19 -5 61 -10 92 -17 87 -1 129 73 202 62 60 146 135 152 135 1 0 6 -12 10 -27 9 -38 23 -53 50 -53 26 0 32 16 42 110 l6 60 32 -20 c18 -11 40 -20 50 -20 17 0 18 10 12 143 -7 164 -22 227 -72 289 -103 126 -119 244 -138 998 -20 832 -14 1215 32 1950 l16 265 150 -2 c185 -3 433 -22 945 -73 722 -72 1078 -90 1395 -71 599 36 859 109 1242 348 229 144 446 302 655 477 l66 56 82 -122 c94 -141 223 -399 304 -605 66 -166 405 -1184 442 -1323 44 -169 55 -265 61 -510 11 -454 -33 -1068 -92 -1303 -60 -235 -127 -368 -247 -490 -50 -50 -91 -101 -98 -121 -13 -41 -61 -117 -110 -176 -52 -62 -150 -200 -150 -211 0 -5 22 -8 49 -8 73 2 77 -6 31 -62 -23 -26 -39 -53 -36 -58 18 -28 378 -19 521 14 204 47 320 141 361 292 19 70 20 49 -16 323 -16 118 19 220 111 326 29 32 55 60 59 62 3 1 12 -9 18 -23 15 -33 35 -32 95 7 27 18 62 31 79 31 l31 0 -7 161 c-4 89 -21 316 -38 506 -28 300 -32 388 -32 670 -1 271 2 343 17 434 28 163 26 161 79 85 241 -341 378 -935 378 -1633 0 -607 -97 -1134 -280 -1526 -33 -69 -62 -147 -65 -174 -5 -38 -16 -58 -49 -95 -96 -105 -216 -267 -216 -290 0 -3 29 -17 65 -30 36 -14 65 -28 65 -32 0 -3 -7 -12 -15 -19 -20 -17 -19 -37 3 -44 111 -33 355 -39 465 -13 161 39 262 120 335 266 51 100 53 135 15 242 -26 72 -27 81 -15 135 11 53 27 84 131 251 l39 63 37 -30 c68 -54 105 -33 105 61 0 32 3 59 8 59 4 -1 18 -7 32 -15 14 -8 29 -14 34 -15 5 0 7 30 4 68 -4 57 -15 89 -69 202 l-64 135 1 125 c0 111 5 144 41 295 23 94 51 229 63 300 12 72 44 254 71 405 51 284 92 559 104 690 4 41 20 172 37 290 40 284 38 417 -7 499 -16 29 -79 106 -138 170 -154 164 -185 202 -269 326 -140 207 -213 362 -267 566 -65 244 -118 653 -128 994 -8 287 8 394 132 865 35 135 78 313 95 395 18 83 69 281 115 440 110 386 120 437 120 615 0 133 -3 152 -28 225 -15 44 -46 111 -68 149 -21 38 -37 71 -35 73 2 2 19 -2 37 -10 68 -29 164 -113 274 -242 62 -72 135 -151 162 -175 45 -40 153 -100 181 -100 18 0 16 197 -4 274 -19 74 -80 207 -125 273 -123 180 -434 403 -864 620 -286 144 -318 162 -595 343 -348 228 -475 296 -656 353 -112 35 -234 48 -477 48 -298 0 -445 -20 -1037 -136 -696 -137 -785 -146 -1540 -146 -949 0 -1366 28 -1935 131 -418 76 -1852 380 -2245 477 -946 232 -1212 337 -1700 668 -107 72 -310 209 -450 305 -283 191 -339 234 -518 395 -209 186 -337 267 -505 316 l-74 22 14 56 c97 376 306 822 534 1139 223 309 498 589 772 785 429 308 993 529 1597 627 214 35 291 53 377 87 59 24 62 27 57 52 -12 46 -51 114 -92 162 l-41 46 -128 6 c-73 4 -179 17 -248 32 -122 26 -216 30 -270 14z" />
+								</g>
+						</span>
+						<h3>A sequencing assay for Alpine ibex population monitoring</h3>
+						<p>Read about my master's project, where I developed an amplicon assay dedicated to population
+							monitoring,
+							hybrid detection and immunogenetics in alpine ibex.</p>
+						<ul class="actions special">
+							<a href="master.html" class="button">Learn More</a>
+						</ul>
 					</li>
-					<li><b>Kessler, C.</b>, & Shafer, A. B. A. (2024).Genomic Analyses Capture the Human-Induced Demographic
+					<li>
+						<span class="icon major style3 animal">
+							<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1"
+								viewBox="0 0 792 612" <g>
+								<path
+									d="m 375.61,456.37 -1.48,0.08 c 0.45,5.12 -5.15,9.79 -5.98,15.31 -0.86,5.7 -0.37,11.62 -0.91,17.13 -1.31,13.341 -1.55,27.721 -0.81,41.33 8.16,-0.1 10.72,15.33 15.73,19.65 -0.69,-17.4 -3.89,-32.99 -2.16,-50.16 0.77,-7.66 0.21,-15.69 0.21,-23.42 -0.01,-3.63 0.73,-8.23 -0.19,-11.76 -0.95,-3.66 -4.03,-4.31 -4.41,-8.16 z M 318.06,196.81 c 1.37,9.14 19.65,20.28 26.2,26.86 11.6,11.67 21.33,13.7 37.76,13.7 17.73,0 35.61,-1.82 53.12,-0.9 16.96,0.9 33.841,3.61 51.94,3.61 15.71,0 31.4,-2.43 47.11,-0.9 7.84,0.76 13.359,4.01 21.329,5.4 8.261,1.45 15.841,2.19 23.421,4.29 16.819,4.65 23.779,14.25 35.949,24.43 12.28,10.28 25.051,15.08 24.11,33.49 -0.87,17.17 -13.28,29.49 -16.71,45.06 -3.22,14.57 -9.92,28.17 -16.4,41.881 -3.04,6.42 -9.239,13.239 -2.88,20.159 6.66,7.24 10.15,4.19 11.851,15.54 2.25,14.88 1.81,30.851 4.87,45.74 3.079,14.97 7.359,28.16 8.14,43.47 0.439,8.601 1.95,14.82 5.57,22.341 2.6,5.409 10.819,17.27 -2.641,14.76 0.641,15.54 -19.09,20.08 -30.62,11.43 -0.54,-1.99 -0.54,-5.82 0,-7.81 12.94,-5.37 13.57,-36.88 11,-48.88 -1.979,-9.221 -4.59,-19.271 -8.12,-28.32 -3.279,-8.42 -2.81,-18.45 -7.439,-25.65 -0.271,5.54 -5.08,11.25 -6.58,16.53 -1.68,5.92 -2.35,12.5 -3.84,18.55 -1.69,6.88 -4.83,12.93 -6.54,19.84 -3.351,13.561 -11.68,23.03 -15.7,35.181 -3.42,10.359 -2.83,24.149 -6.71,33.529 -1.42,3.41 -5.01,9.75 -11.86,10.44 -7.979,0.8 -6.3,-7.65 -13.779,-8.07 -1.261,-7.479 9.89,-11.319 12.67,-18.09 2.7,-6.57 1.55,-13.67 4.59,-20.54 5.93,-13.39 8.31,-27.13 12.28,-41.45 4.67,-16.81 5.399,-32.8 1.659,-49.399 -1.6,-7.07 -2.72,-15.78 -5.39,-22.78 -3.08,-8.1 -6.58,-8.14 -13.7,-12.8 -5.47,-3.58 -9.6,-10.59 -13.84,-15.351 -7.149,-8.01 -12.71,-6.76 -23.47,-3.14 -8.17,2.75 -17.55,6.91 -26.16,5.91 -5.23,-0.601 -9.71,-3.63 -14.64,-4.32 -4.11,-0.58 -8.71,-0.16 -12.98,-0.04 v 0.03 c -8.09,5.37 -14.36,10.5 -21.54,16.93 -4.25,3.8 -18.08,17.67 -23.91,18.261 0.011,9.31 -3.739,19.51 -4.689,28.77 -1.181,11.52 0.01,21.32 -2.96,32.3 -6.51,24.07 -3.69,50.9 -3.48,75.931 h 0.92 c -3.41,7.649 -1.36,9.89 -5.22,17.43 -0.31,-0.74 -4.07,6.04 -4.19,5.24 -3.26,-0.061 -12.9,0.47 -15.62,-1.03 -5.57,-3.09 -1.21,-5.88 -2.87,-9.851 -1.79,-4.289 -3.99,-5.529 -7.12,-9.68 -6.15,-8.13 -6.14,-19.35 -10.61,-28.28 -7.34,-14.64 -7.99,-22.819 -4.45,-38.729 3.26,-14.67 1.85,-31.38 1.85,-46.89 0,-7.12 -0.86,-15.44 1.88,-20.71 3.58,-6.881 10.61,-11.19 14.68,-17.12 4.08,-5.95 2.98,-14.051 2.93,-21.95 -14.54,-4.641 -20.21,-15.41 -29.51,-26.13 -3.6,-4.15 -7.58,-9.59 -10.62,-14.83 -2.71,-4.69 -3.66,-8.9 -5.5,-13.681 l 0.17,-0.069 c 0.33,-10.101 -14.25,-13.771 -20.23,-19.851 -6.21,-6.33 -10.63,-14.59 -15.69,-21.89 -11.35,-16.33 -23,-32.97 -29.18,-51.88 -13.11,-0.66 -23.02,1.82 -34.13,6.18 -12.18,4.77 -21.33,5.19 -26.93,-6.31 -6.22,-12.81 -0.31,-16.47 8.38,-24.97 4.96,-4.86 23.66,-23.03 22.09,-28.98 -1.1,-0.01 -2.32,-0.23 -3.43,-0.28 0.42,-2.04 -0.75,-4.9 -0.3,-6.92 -15.14,-7.3 -38.44,-30.48 -34.92,-49.57 0.69,-3.77 29.39,4.23 33.07,4.5 4.25,3.98 14.79,10.94 21.49,11.56 h 0.02 c 0.1,-10.75 1.01,-17.47 -6.74,-25.22 -9.78,-9.78 -16.83,-16.81 -29.42,-22.59 -11.84,-5.43 -22.94,-14.01 -30.69,-24.31 -4.07,-5.4 -10.24,-13.74 -8.3,-21.65 1.77,-7.24 10.57,-10.79 17.49,-13.41 2.17,7.19 -9.16,11.64 -6.36,21.54 2,7.04 10.46,14.12 16.76,16.84 2.37,-24.9 -5.55,-60.2 19.42,-77.24 l 0.7,0.39 c -6.62,11.61 -13.16,24.83 -13.69,38.37 -0.4,10.09 0.1,28.6 5.69,37.44 2.6,4.11 13.87,14.25 19.19,10.14 2.78,-2.14 4.6,-16.86 5.73,-20.49 2.8,-8.99 7.96,-17.09 10.88,-25.68 2.37,-6.98 2.01,-16.42 11.29,-18.82 -4.24,4.13 -8.03,19.58 -10.31,26.25 -4.89,14.25 -11.78,44.38 -4.2,58.55 1.78,3.32 5.98,6.02 7.92,10.14 2.07,4.37 2.54,8.34 5.75,12.26 2.92,-3.87 4.43,-8.61 5.7,-13.03 0.72,-0.44 3.49,-1.57 4.32,-1.84 1.32,-0.42 -9.64,32.35 -9.06,34.17 3.78,11.92 23.27,0.07 31.33,6.24 1,-3.27 5.5,-16.09 7.83,-17.78 5.21,-3.79 9.52,2.16 15.75,-1.77 6.59,-4.16 18.78,-18.19 22.98,-25.46 l -0.19,-0.99 c -14.51,-5.33 -28.08,-11.69 -40.62,-19.94 -11.46,-7.54 -21.61,-18.53 -30.73,-28.51 12.11,0.76 24.27,13.13 34.41,18.99 5.61,3.23 11.09,5.01 17.4,6.33 9,1.9 10.53,3.31 12.31,-5.63 1.23,-6.17 1.19,-11.79 2.78,-17.96 1.61,-6.27 4.11,-14.04 2.8,-20.6 -1.91,-9.6 -7.6,-19.82 -10.41,-29.55 2.85,6.27 9.84,11.39 13.15,17.6 4.54,8.54 4.67,16.27 4.67,26.37 0,10.01 -12.73,44.83 5.42,41.13 1.21,-12.5 9.53,-21.85 10.37,-35.02 0.45,-7.12 -1.19,-14.81 0.67,-21.7 1.36,-5.01 4.37,-9.27 5.85,-14.04 -1.4,9.88 1.56,20.83 0.88,31.23 -0.57,8.61 -3.61,17.77 -5.75,26.1 -2.63,10.22 -4.6,18.28 -9.84,27.11 -3.88,6.52 -10.07,12.13 -11.31,19.81 h 1.85 c 0.16,0 5.36,-0.66 7.28,-0.78 1.93,8.45 3.37,18.7 2,27.9 -0.96,6.41 -8.48,19.81 -14.69,20.82 -3.27,5.05 -12.53,0.47 -12.73,7.03 l 0.519,0.028 z" />
+								</g>
+
+							</svg>
+						</span>
+						<h3>Evolutionary History of North American Cervidae</h3>
+						<p>During my PhD, I investigated the evolutionary history of white-tailed and mule
+							deer through demographic, hybridisation and ancient DNA analyses.</p>
+						<ul class="actions special">
+							<a href="phd.html" class="button">Learn More</a>
+						</ul>
+
+					</li>
+					<li>
+						<span class="icon major style5 animal">
+							<svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1344">
+								<g transform="translate(200,1200) scale(0.075,-0.075)">
+									<path
+										d="M1830 13421 c-139 -31 -359 -97 -501 -152 -74 -29 -200 -73 -281 -99 -126 -41 -159 -56 -226 -104 -59 -42 -84 -68 -100 -102 -20 -41 -25 -45 -50 -40 -15 2 -95 8 -179 11 -199 9 -228 0 -320 -95 -91 -95 -138 -161 -158 -219 -15 -45 -15 -57 0 -138 26 -155 68 -265 114 -307 12 -11 35 -43 52 -72 35 -61 143 -165 238 -228 96 -64 208 -182 216 -230 4 -20 4 -40 0 -44 -3 -4 -44 -9 -89 -10 l-83 -4 -22 37 c-15 25 -26 35 -37 31 -9 -3 -20 -6 -25 -6 -5 0 -9 -21 -9 -46 0 -37 -6 -53 -29 -80 -29 -33 -51 -88 -51 -130 0 -31 51 -98 145 -190 91 -89 206 -170 331 -232 45 -23 92 -54 104 -69 29 -37 139 -202 185 -278 21 -33 64 -90 98 -128 l60 -68 8 -87 c7 -85 58 -334 99 -481 l20 -73 -40 -247 c-21 -135 -46 -322 -55 -416 -21 -232 -49 -458 -90 -725 -60 -396 -77 -548 -70 -635 3 -44 -1 -233 -9 -420 -14 -325 -14 -347 5 -544 22 -235 42 -340 141 -746 77 -316 122 -448 283 -830 132 -311 161 -372 301 -626 l124 -226 -30 -234 c-16 -129 -36 -317 -45 -418 -15 -177 -23 -211 -49 -211 -32 0 -272 87 -361 130 -115 56 -172 69 -345 77 -157 7 -232 -1 -266 -30 -33 -29 -47 -91 -29 -131 11 -28 221 -305 300 -399 85 -99 429 -350 560 -408 57 -25 133 -35 440 -55 222 -15 288 -16 451 -6 l192 12 154 53 c138 47 163 59 235 115 44 34 84 62 89 62 5 0 32 -15 60 -34 l51 -35 -42 -138 c-65 -209 -78 -305 -65 -460 13 -151 26 -208 76 -334 47 -121 89 -183 161 -239 31 -25 93 -74 137 -109 113 -91 610 -516 740 -633 119 -108 210 -166 514 -328 159 -85 205 -104 307 -131 113 -30 128 -31 250 -26 149 6 210 21 238 59 l20 27 -36 75 c-20 40 -37 78 -37 82 0 5 9 15 20 22 11 7 20 21 20 33 0 37 59 52 206 50 115 -2 133 0 154 17 36 29 21 61 -49 111 -68 47 -101 85 -101 113 0 11 -8 22 -19 25 -18 5 -35 39 -26 54 3 3 44 7 92 7 88 0 143 12 143 32 0 16 -40 52 -93 82 -39 23 -47 32 -47 56 0 28 3 30 50 34 95 9 108 56 33 111 -27 19 -59 47 -72 61 -24 25 -24 27 -8 61 15 32 15 37 -1 81 -9 25 -31 63 -48 83 -29 34 -32 42 -36 129 l-4 94 30 -6 c176 -31 1746 -5 2376 39 113 7 336 19 495 25 160 6 368 15 464 20 351 20 988 8 1352 -25 310 -28 703 -75 758 -91 l54 -15 -84 -47 c-46 -26 -150 -89 -231 -140 -81 -51 -232 -136 -335 -190 -103 -54 -215 -116 -248 -137 -59 -38 -301 -158 -422 -209 -69 -29 -401 -183 -476 -221 -110 -56 -233 -144 -255 -184 -31 -54 -28 -77 10 -101 30 -18 51 -20 235 -20 197 0 202 0 208 -21 7 -21 11 -22 149 -17 l142 5 -4 -27 c-4 -30 17 -57 52 -66 13 -3 53 7 96 25 75 30 75 30 96 10 31 -29 117 -44 189 -33 41 6 87 6 145 -3 76 -11 103 -10 275 13 182 24 356 61 477 103 32 11 149 40 260 66 354 80 422 97 466 116 23 10 42 15 42 11 0 -28 -66 -195 -114 -287 -51 -98 -58 -118 -63 -187 -5 -70 -3 -86 26 -165 42 -113 71 -141 181 -178 79 -26 88 -27 157 -17 50 8 99 25 155 54 46 24 86 44 90 46 4 2 8 -9 10 -25 4 -37 43 -58 91 -49 20 4 59 26 90 51 30 24 57 41 61 38 3 -4 6 -21 6 -40 0 -26 6 -36 25 -45 21 -9 33 -8 73 10 41 19 63 22 162 20 131 -2 166 8 233 68 l40 37 45 -52 c70 -82 84 -86 187 -56 102 30 162 59 272 131 116 77 232 206 429 477 93 128 216 294 274 369 58 75 113 148 123 162 16 23 24 26 80 26 55 -1 81 8 221 67 149 64 163 72 230 138 48 47 84 94 110 144 37 71 38 77 34 151 -4 64 -11 92 -41 152 -20 41 -42 105 -49 144 -15 81 -17 398 -4 679 7 169 6 204 -12 320 -38 238 -127 488 -319 889 -58 121 -112 239 -121 261 -15 41 -108 178 -215 319 -33 43 -115 155 -183 250 -123 169 -301 373 -504 576 -80 81 -145 133 -275 221 -247 167 -269 180 -454 258 -92 39 -273 124 -402 187 -535 265 -1306 597 -1549 668 -85 24 -277 81 -426 125 -513 151 -1079 292 -1557 386 -180 36 -399 83 -485 104 -302 76 -419 101 -757 161 -479 85 -987 199 -1147 256 -140 50 -331 149 -423 219 -178 134 -546 520 -651 682 -266 411 -587 924 -686 1096 -65 115 -149 254 -187 310 -96 143 -237 380 -314 527 -84 159 -131 281 -257 670 -125 382 -189 545 -332 845 -137 286 -223 430 -360 601 -166 208 -205 249 -328 349 -327 263 -520 357 -872 421 -196 36 -490 43 -618 15z" />
+								</g>
+							</svg>
+						</span>
+						<h3>Speciation genomics of highly mobile keystone marine predators</h3>
+						<p>I just started working on sea lion speciation genomics,
+							to try to better understand their taxonomy, hybridisation and evolutionary history.</p>
+						<ul class="actions special">
+							<a href="postdoc.html" class="button">Learn More</a>
+						</ul>
+					</li>
+				</ul>
+			</section>
+
+			<!-- Second Section -->
+			<section id="pubs" class="main special">
+				<header class="major">
+					<h2>Publications</h2>
+					<p>Here's the list of all published articles I have been involved with:</p>
+					<p></p>
+				</header>
+				<ul style="float: left;" align="left">
+					<li>Cars, B. S., <b>Kessler, C.</b>, Hoffman, E. A., Côté, S. D., Koelsch, D., & Shafer, A. B. A.
+						(2024).
+						Island demographics and trait associations in white-tailed deer. <i>Heredity</i>, 1–10.
+						<a
+							href="https://doi.org/10.1038/s41437-024-00685-2">https://doi.org/10.1038/s41437-024-00685-2</a>
+					</li>
+					<li><b>Kessler, C.</b>, & Shafer, A. B. A. (2024).Genomic Analyses Capture the Human-Induced
+						Demographic
 						Collapse and Recovery in a
 						Wide-Ranging Cervid, <i>Molecular Biology and Evolution</i>, 41(3), msae038.<a
-							href="https://doi.org/10.1093/molbev/msae038">https://doi.org/10.1093/molbev/msae038</a></li>
-					<li> <B>Kessler, C.</B>, Wootton, E., & Shafer, A. B. A. (2023). Speciation without gene-flow in hybridizing
+							href="https://doi.org/10.1093/molbev/msae038">https://doi.org/10.1093/molbev/msae038</a>
+					</li>
+					<li> <B>Kessler, C.</B>, Wootton, E., & Shafer, A. B. A. (2023). Speciation without gene-flow in
+						hybridizing
 						deer.
 						<i>Molecular Ecology</i>, 32, 1117–1132.
 						<a href="https://doi.org/10.1111/mec.16824">https://doi.org/10.1111/mec.16824</a>
 					</li>
-					<li><B>Kessler, C.</B>, Brambilla, A., Waldvogel, D., Camenisch, G., Biebach, I., Leigh, D. M., Grossen, C.,
-						& Croll, D. (2022). A robust sequencing assay of a thousand amplicons for the high-throughput population
+					<li><B>Kessler, C.</B>, Brambilla, A., Waldvogel, D., Camenisch, G., Biebach, I., Leigh, D. M.,
+						Grossen, C.,
+						& Croll, D. (2022). A robust sequencing assay of a thousand amplicons for the high-throughput
+						population
 						monitoring of Alpine ibex immunogenetics. <I>Molecular Ecology Resources</I>, 22, 66–85.
 						<a href="https://doi.org/10.1111/1755-0998.13452">https://doi.org/10.1111/1755-0998.13452</a>
 					</li>
-					<li>Suleiman, M., Yi, X., Bosi, E., Burdet, F., De Luca, C., Tesi, M., Guerra, S. D., Pocai, A., De Simone,
-						P., Boggi, U., <B>Kessler, C.</B>, Eizirik, D., Marchetti, P., Cnop, M., Ibberson, M., & Marselli, L.
-						(2021). Recovery of human type 2 diabetes beta cell function associates with transcriptomic
-						signatures that point to novel therapeutic targets [Preprint]. In Review.
-						<a href="https://doi.org/10.21203/rs.3.rs-871924/v1">https://doi.org/10.21203/rs.3.rs-871924/v1</a>
-					</li>
-					<li>Wigger, L., Barovic, M., Brunner, A.-D., Marzetta, F., Schöniger, E., Mehl, F., Kipke, N., Friedland,
-						D., Burdet, F., <B>Kessler, C.</B>, Lesche, M., Thorens, B., Bonifacio, E., Legido-Quigley, C.,
-						Barbier Saint Hilaire, P., Delerive, P., Dahl, A., Klose, C., Gerl, M. J., … Solimena, M. (2021).
+					<li>Wigger, L., Barovic, M., Brunner, A.-D., Marzetta, F., Schöniger, E., Mehl, F., Kipke, N.,
+						Friedland, D., Burdet, F., <B>Kessler, C. </B>, … Solimena, M. (2021).
 						Multi-omics profiling of living human pancreatic islet donors reveals heterogeneous beta cell
 						trajectories towards type 2 diabetes. <i>Nature Metabolism</i>, 3(7), 1017–1031.
-						<a href="https://doi.org/10.1038/s42255-021-00420-9">https://doi.org/10.1038/s42255-021-00420-9</a>
+						<a
+							href="https://doi.org/10.1038/s42255-021-00420-9">https://doi.org/10.1038/s42255-021-00420-9</a>
 					</li>
-		
+
 				</ul>
-			</article>
+
+				<ul class="statistics">
+					<li class="style1">
+						<span class="icon fas fa-file-alt"></span>
+						<strong>5</strong> published articles
+					</li>
+					<li class="style2">
+						<span class="icon fas fa-spinner"></span>
+						<strong>4</strong> articles in preparation
+					</li>
+					<li class="style3">
+						<span class="icon fas fa-chalkboard-teacher"></span>
+						<strong>7</strong> conferences attended
+					</li>
+					<li class="style4">
+						<span class="icon fas fa-map"></span>
+						<strong>3</strong> countries and labs
+					</li>
+					<!-- <li class="style5">
+						<span class="icon fas fa-dragon"></span>
+						<strong></strong> I liked this infographic so I kept it even though I can't think of many facts
+						to share (yet!)
+					</li>  -->
+				</ul>
+				<footer class="major">
+					<ul class="actions special">
+						<li><a href="https://orcid.org/0000-0003-2871-5625" class="button">Check out my ORCID</a></li>
+					</ul>
+				</footer>
+			</section>
+
+			<!-- Get Started -->
+			<section id="misc" class="main special">
+				<header class="major">
+					<h2>Other stuff</h2>
+				</header>
+				<h3>Sexism in academia</h3>
+				<h4>It's 2025, people!</h4>
+				<p style="margin-bottom: 0;">Those times my male colleagues were given the Dr. title but not me (2
+					times)</p>
+				<p style="margin-bottom: 0;">That reviewer full of condescension and disdain</p>
+				<p style="margin-bottom: 0;">That member of the audience who joked about me going back to the kitchen
+				</p>
+				<p style="margin-bottom: 0;">That editor who replied to my supervisor instead of me</p>
+				<p style="margin-bottom: 0;">That member of the audience who interrupted me to make a joke then gaslit
+					me</p>
+				<p style="margin-bottom: 0;">That time when I was not given authorship</p>
+				<p style="margin-bottom: 0;">That colleague who did not rectify a mistake I had caught</p>
+				<p style="margin-bottom: 0;">That colleague (yes, the same one) who did not deem useful to inform me he
+					had erased all my data</p>
+				<p style="margin-bottom: 0;">That presenter who made unbelievable assumptions about rape and incest</p>
+				<p style="margin-bottom: 0;">That creep at a conference who forced a hug on me</p>
+				<p style="margin-bottom: 0;">That prof who would ignore his female grad students</p>
+				<p style="margin-bottom: 0;">That grad student who said this prof was good to him so he must be good</p>
+				<p style="margin-bottom: 0;">That university who pushed severe allegations against one of their prof
+					under the rug</p>
+				<p">That collegue who was flabbergasted that a woman could build a fire (that has actually happened a
+					second time since!) </p>
+					<p>Undoubtedly more to come, stay tuned.</p>
+			</section>
 		</div>
 
-		<!-- Sidebar -->
-		<section id="sidebar">
-
-			<!-- Intro -->
-			<section id="intro">
-				<header>
-					<a class="logo"><img src="images/PDG.jpeg" alt="" /></a>
-					<h2>Camille Kessler</h2>
-					<p>A non-exhaustive account of my academic journey</p>
-				</header>
-			</section>
-
-			<!-- Footer -->
-			<section id="footer">
-				<ul class="icons">
-					<li><a href="https://github.com/CamilleKessler" class="icon brands fa-github"><span
-								class="label">Github</span></a></li>
-					<li><a href="https://gitlab.com/WiDGeT_TrentU/graduate_theses/-/tree/master/Kessler?ref_type=heads"
-							class="icon brands fab fa-gitlab"><span class="label">Github</span></a></li>
-					<li><a href="https://www.researchgate.net/profile/Camille-Kessler"
-							class="icon brands fa-researchgate"><span class="label">Email</span></a></li>
-					<li><a href="https://scholar.google.com/citations?user=uZYOLxAAAAAJ&hl=en"
-							class="icon brands fab fa-google"><span class="label">Email</span></a></li>
-					<li><a href="https://ecoevo.social/@camillekessler" class="icon brands fab fab fa-mastodon"><span
-								class="label">Email</span></a></li>
-
+		<!-- Footer -->
+		<footer id="footer">
+			<section>
+				<h2>Thanks for reading!</h2>
+				<p>Last modified: <span id="lastModified"></span></p>
+				<script>
+					document.getElementById('lastModified').textContent = new Date(document.lastModified).toLocaleDateString('en-UK', {
+						year: 'numeric',
+						month: 'long',
+						day: 'numeric'
+					});
+				</script>
+				<ul class="actions">
+					<li><a href="#" class="button">Back to the top</a></li>
 				</ul>
-				<p class="copyright">&copy; Camille Kessler. Design: <a href="http://html5up.net">HTML5 UP</a>.</p>
 			</section>
+			<section>
+				<h2>Dr. Camille Kessler</h2>
+				<dl class="alt">
+					<dt>Affiliation</dt>
+					<dd>Division of Evolutionary Biology &bull; LMU Munich &bull; Germany</dd>
+					<dt>Email</dt>
+					<dd>kessler[at]bio.lmu.de</dd>
+				</dl>
+				<ul class="icons">
+					<li><a href="https://orcid.org/0000-0003-2871-5625" class="icon brands fa-orcid alt"></a></li>
+					<li>
+						<a href="https://bsky.app/profile/camillekessler.bsky.social" class="icon" style="display: inline-flex;justify-content: center;align-items: center;width: 2.5rem;height: 2.5rem;padding: 0.3em;border-radius: 50%;border: 1px solid rgba(255, 255, 255, 0.35);color: white;vertical-align: middle;background: transparent;text-decoration: none;">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="1.5rem" height="1.5rem"
+								fill="currentColor" aria-hidden="true" focusable="false">
+								<path d="M160 96C124.7 96 96 124.7 96 160L96 480C96 515.3 124.7 544 160 544L480 544C515.3 544 544 515.3 544 480L544 160C544 124.7 515.3 96 480 96L160 96zM320 311.4C334.5 281.4 374 225.6 410.7 198.1C437.2 178.2 480 162.9 480 211.8C480 221.6 474.4 293.9 471.1 305.6C459.7 346.4 418.1 356.8 381.1 350.5C445.8 361.5 462.3 398 426.7 434.5C359.2 503.8 329.7 417.1 322.1 394.9L321.8 394C320.9 391.4 320.4 389.9 320 389.9C319.6 389.9 319.1 391.4 318.2 394C318.1 394.3 318 394.6 317.9 394.9C310.3 417.1 280.8 503.7 213.3 434.5C177.8 398 194.2 361.5 258.9 350.5C221.9 356.8 180.3 346.4 168.9 305.6C165.6 293.9 160 221.6 160 211.8C160 162.9 202.9 178.3 229.3 198.1C266 225.6 305.5 281.5 320 311.4z" />
+							</svg></a></li>
+
+					<li><a href="https://www.researchgate.net/profile/Camille-Kessler?ev=hdr_xprf"
+							class="icon brands fa-researchgate alt"></a></li>
+					<li><a href="https://gitlab.com/WiDGeT_TrentU/graduate_theses/-/tree/master/Kessler?ref_type=heads"
+							class="icon brands fa-gitlab alt"></a></li>
+					<li><a href="https://github.com/EvoBioWolf" class="icon brands fa-github alt"></a></li>
+					<li><a href="https://ch.linkedin.com/in/camille-kessler-445678175?trk=people-guest_people_search-card"
+							class="icon brands fa-linkedin alt"></a></li>
+				</ul>
+			</section>
+			<p class="copyright">&copy; Camille Kessler 2025; Design: <a href="https://html5up.net">HTML5 UP</a>; Animal
+				silouhettes: <a href="https://www.phylopic.org/images">PhyloPic.</a></p>
+		</footer>
 
 	</div>
 
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
 	<script src="assets/js/browser.min.js"></script>
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
