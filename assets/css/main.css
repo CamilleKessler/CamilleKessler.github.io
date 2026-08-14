@@ -2567,10 +2567,41 @@ a.icon:hover {
 	display: block;
 	margin: 0 0 3em 0;
 	width: 100%;
+	margin: 0.5em 1em 0.5em 1em;
+	top: 0.25em;
 }
 
 .image.main img {
 	width: 100%;
+	margin: 0.5em 1em 0.5em 1em;
+	top: 0.25em;
+}
+
+figure.image.main.image-captioned {
+	display: block;
+	float: left;
+	width: 40%;
+	margin: 0 1.5em 1em 0;
+}
+
+figure.image.main.image-captioned img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	border-radius: 8px;
+}
+
+figure.image.main.image-captioned figcaption {
+	display: block;
+	margin-top: 0.5em;
+	padding-top: 0.25em;
+	font-size: 0.78em;
+	line-height: 1.4;
+	font-style: italic;
+	font-family: "Georgia", "Times New Roman", serif;
+	color: rgba(46, 6, 62, 0.8);
+	text-align: left;
 }
 
 /* List */
@@ -3967,3 +3998,25 @@ body.is-preload #header.alt .logo {
 	}
 
 }
+
+figure {
+  border: thin silver solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  margin: auto;
+}
+
+.caption { 
+  position: absolute; 
+  left: 0; right: 0; 
+  bottom: 0; 
+  background: rgba(0,0,0,0.6); 
+  color: #fff; 
+  padding: 8px; 
+  text-align: center; 
+  opacity: 0; 
+  transform: translateY(8px); 
+  transition: opacity .18s ease, transform .18s ease; 
+  pointer-events: none; 
+} 
