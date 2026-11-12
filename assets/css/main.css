@@ -2622,6 +2622,33 @@ ul {
 	padding-left: 1em;
 }
 
+/* Ensure lists are left-aligned across browsers */
+.main ol,
+.main ul:not(.features):not(.actions):not(.statistics),
+#main .main ol,
+#main .main ul:not(.features):not(.actions):not(.statistics) {
+	text-align: left;
+}
+
+#pubs,
+#misc {
+	text-align: left;
+}
+
+#pubs > header.major,
+#misc > header.major {
+	text-align: center;
+}
+
+.plain-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+.plain-list li {
+	padding-left: 0;
+}
+
 ul li {
 	padding-left: 0.5em;
 	margin: 10px 0;
